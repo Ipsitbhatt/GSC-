@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="gscpro.css" type="text/css"/>
+<script>
+function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
+}
+</script>
+</head>
+<body>
+ <p>We are eager to discuss your business needs, and answer any questions you may have.<br>
+          Enter your details and we'll get back to you shortly.</p>
+<form>
+Name*<br>
+<input type="text" name="name" placeholder="John Doe"/><br><br>
+Email Address*<br>
+<input type="text" name="Email Address" placeholder="hello@gmail.com"/><br><br>
+Message*<br>
+<textarea rows="14" cols="38" placeholder="Type your message"/></textarea><br><br>
+<button class ="button">Submit</button>
+
+</form>
+
+</body>
+</html>

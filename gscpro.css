@@ -1,0 +1,30 @@
+
+p {
+ text-align: center;
+ font-size: 24px;
+ font-color: blue;
+ line-height: 32px; 
+word-spacing: 1.3px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+form
+{
+text-align: center;
+}
+
+body{
+background-image: url("jWomGHM.jpg ");
+}
